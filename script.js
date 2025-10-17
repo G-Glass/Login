@@ -11,9 +11,3 @@ function cn() {
     submissao1.style.display="none"
     prosegue.style.display="block"
 }
-
-if (senha = confirm_senha) {
-    res.innerHTML="Palavra passe não conscite"
-}else {
-    res.innerHTML="valido"
-}

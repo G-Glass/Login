@@ -36,6 +36,11 @@ body {
     box-shadow: 2px -1px;
     margin: 20px;
 }
+.forma {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .entrar {
     margin: 20px;
 }

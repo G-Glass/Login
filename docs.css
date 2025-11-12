@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.open {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    padding-inline: 10px;
+    border-radius: 18px;
+    padding: 4px 6px;
+    border: 1px solid transparent;
+    border-color: purple ;
+}
+.opendoc {
+    background: linear-gradient(to right,blue,purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    box-shadow: 2px -1px;
+}
+.tresmenu {
+    padding: 4px;
+}
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}

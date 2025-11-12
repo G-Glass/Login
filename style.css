@@ -28,13 +28,28 @@ body {
     align-items: center;
     justify-content: center;
 }
+.open {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    padding-inline: 10px;
+    border-radius: 18px;
+}
 .edemo {
     background: linear-gradient(to right,blue,purple);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     box-shadow: 2px -1px;
-    margin: 20px;
+    margin: 10px 5px;
+}
+#go {
+    align-self: self-end;
+}
+#go a {
+    
+    color: white;
 }
 .forma {
     display: flex;

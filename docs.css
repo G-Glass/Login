@@ -2,6 +2,10 @@ body {
     background-color: black;
     color: white;
 }
+@font-face {
+    font-family: "Momo";
+    src: url("/fonts/MomoTrustDisplay-Regular.ttf") format("truetype");
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -30,27 +34,31 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 1px;
+}
+.inicio {
+    display: flex;
     background-color: black;
+    min-height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .menu {
     background-color: rgb(5, 0, 5);
-    min-height: 100vh;
     display: none;
 }
 .lista {
-    padding-top: 60px;
+    padding-top: 10px;
     padding-inline: 15px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .lista a {
-    background-color: rgb(14, 0, 14);
+    background-color: rgba(27, 1, 22, 0.479);
     border-radius: 5px;
     color: rgb(0, 238, 255);
     text-decoration: none;
@@ -65,8 +73,10 @@ body {
 
 .menu .open {
     align-self: flex-end;
-    margin-top: 70%;
+    margin-top: 40%;
     background-color: rgb(34, 4, 34);
+    align-self: center;
+
 }
 .h {
     text-align: center;
@@ -75,4 +85,15 @@ body {
 
 #fecha {
     display: none;
+}
+
+section {
+    background-color: black;
+    padding: 40px 10px;
+    text-align: center;
+}
+.titulo {
+    line-height: 40px;
+    font-family: "Momo";
+    font-size: xx-large;
 }

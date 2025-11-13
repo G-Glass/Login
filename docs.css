@@ -15,7 +15,6 @@ body {
     border-radius: 18px;
     padding: 4px 6px;
     border: 1px solid transparent;
-    border-color: purple ;
 }
 .opendoc {
     background: linear-gradient(to right,blue,purple);
@@ -31,5 +30,42 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 10px;
+    padding: 5px 1px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu {
+    
+    background-color: rgb(43, 2, 43);
+    min-height: 100vh;
+    text-align: center;
+}
+.lista {
+    padding-top: 50px;
+    padding-inline: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.lista a {
+    background-color: rgb(63, 3, 63);
+    border-radius: 5px;
+    color: rgb(0, 238, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+    padding: 8px;
+    width: 100%;
+}
+.lista a:hover {
+    text-decoration: underline;
+}
+
+.menu .open {
+    align-self: flex-end;
+    margin-top: 70%;
+    background-color: rgb(34, 4, 34);
 }

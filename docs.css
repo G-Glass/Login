@@ -40,6 +40,7 @@ body {
 .menu {
     background-color: rgb(5, 0, 5);
     min-height: 100vh;
+    display: none;
 }
 .lista {
     padding-top: 60px;

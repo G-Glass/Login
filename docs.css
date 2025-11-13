@@ -90,10 +90,42 @@ body {
 section {
     background-color: black;
     padding: 40px 10px;
-    text-align: center;
 }
 .titulo {
+    text-align: center;
+    padding-bottom: 20px;
     line-height: 40px;
     font-family: "Momo";
     font-size: xx-large;
+}
+
+.html {
+    background-color: rgba(238, 234, 213, 0.116);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: whitesmoke 0px 0px 2px 0px;
+}
+.html a {
+    color: white;
+    background-color: rgb(17, 13, 2);
+    border: 1px solid white;
+}
+    
+a{
+    font-family: "Momo";
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 5px;
+}
+.cssi {
+    background-color: rgba(0, 0, 255, 0.534);
+    border-radius: 7px;
+    margin: 10px;
+    padding: 20px;
+}
+.cssi a {
+    color: white;
+    background-color: rgb(42, 12, 124);
+    border: 1px solid white;
 }

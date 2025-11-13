@@ -104,7 +104,6 @@ section {
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: whitesmoke 0px 0px 2px 0px;
 }
 .html a {
     color: white;
@@ -127,5 +126,27 @@ a{
 .cssi a {
     color: white;
     background-color: rgb(42, 12, 124);
+    border: 1px solid white;
+}
+.javascript {
+    background-color: rgba(200, 255, 0, 0.952);
+    border-radius: 7px;
+    margin: 10px;
+    padding: 20px;
+}
+.javascript a {
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(170, 147, 19);
+}
+.tailwind {
+    background-color: purple;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 20px;
+}
+.tailwind a {
+    color: black;
+    background-color: azure;
     border: 1px solid white;
 }

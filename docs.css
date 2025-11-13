@@ -38,7 +38,6 @@ body {
     width: 100%;
 }
 .menu {
-    
     background-color: rgb(5, 0, 5);
     min-height: 100vh;
 }
@@ -71,4 +70,8 @@ body {
 .h {
     text-align: center;
     padding-bottom: 10px;
+}
+
+#fecha {
+    display: none;
 }

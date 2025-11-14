@@ -51,14 +51,13 @@ body {
     display: none;
 }
 .lista {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-inline: 15px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .lista a {
-    background-color: rgba(27, 1, 22, 0.479);
     border-radius: 5px;
     color: rgb(0, 238, 255);
     text-decoration: none;
@@ -149,4 +148,19 @@ a{
     color: black;
     background-color: azure;
     border: 1px solid white;
+}
+
+/*LISTA DE MENU*/
+.hl {
+    background-color: rgba(238, 234, 213, 0.116);
+}
+.c {
+    background-color:  rgba(0, 0, 255, 0.534);
+}
+.j {
+    background-color: rgb(66, 57, 3);
+    color: black;
+}
+.t {
+    background-color: purple;
 }

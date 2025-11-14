@@ -106,9 +106,9 @@ section {
     border-radius: 10px;
 }
 .html a {
-    color: white;
-    background-color: rgb(17, 13, 2);
-    border: 1px solid white;
+    color: rgb(15, 11, 11);
+    background-color: rgb(240, 178, 10);
+    border: 1px solid transparent;
 }
     
 a{

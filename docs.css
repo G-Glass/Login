@@ -72,7 +72,7 @@ body {
 
 .menu .open {
     align-self: flex-end;
-    margin-top: 10px;
+    margin-top: 30px;
     background-color: rgb(34, 4, 34);
     align-self: center;
 
@@ -91,6 +91,7 @@ main {
 }
 section {
     padding: 40px 10px;
+    padding-bottom: 50px;
     background-color: black;
 }
 .titulo {

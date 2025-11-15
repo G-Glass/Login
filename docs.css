@@ -1,7 +1,4 @@
-body {
-    background-color: black;
-    color: white;
-}
+
 @font-face {
     font-family: "Momo";
     src: url("/fonts/MomoTrustDisplay-Regular.ttf") format("truetype");
@@ -10,6 +7,12 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    background-color: black;
+    color: white;
+}
+
 .open {
     display: flex;
     flex-direction: row;
@@ -47,6 +50,7 @@ body {
 }
 .menu {
     background-color: rgb(5, 0, 5);
+    height: 100vh;
     display: none;
 }
 .lista {
@@ -85,14 +89,13 @@ body {
 #fecha {
     display: none;
 }
-main {
-    height: 100vh;
-    overflow-y: auto;
-}
-section {
+
+.principal {
     padding: 40px 10px;
     padding-bottom: 50px;
     background-color: black;
+    min-height: 100vh;
+    color: white;
 }
 .titulo {
     text-align: center;
